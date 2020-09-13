@@ -58,4 +58,7 @@ AC_CHECK_LIB([SDL2],
              [],
              [AC_MSG_FAILURE([unable to find SDL2 library])])
 
+AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([src/Makefile])
+
 AC_OUTPUT
